@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+*.xcuserstate
+>>>>>>> origin/master
 *.DS_Store
 *.pbxproj
 Pods/
