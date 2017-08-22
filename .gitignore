@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 *.xcuserstate
+=======
+>>>>>>> origin/yuechao
 *.DS_Store
 *.pbxproj
 Pods/
