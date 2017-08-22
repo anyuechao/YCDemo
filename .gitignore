@@ -1,6 +1,7 @@
-*.DS_Store
-*.pbxproj
-Pods/
-Podfile.lock
+YCDemo.xcodeproj/xcuserdata/
 YCDemo.xcworkspace/
-project.pbxproj
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+YCDemo.xcodeproj/project.xcworkspace/xcuserdata/
