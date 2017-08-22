@@ -31,7 +31,7 @@
     }];
     [timer fire];
     _timer = timer;
-    
+      
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
