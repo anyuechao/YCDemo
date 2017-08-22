@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     ///asa 
     
-    
+    //1
     
     NSTimer *timer = [NSTimer timerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
         for (int i = 0; i < 200; i ++) {
