@@ -2,3 +2,5 @@
 *.DS_Store
 *.pbxproj
 Pods/
+Podfile.lock
+YCDemo.xcworkspace/
