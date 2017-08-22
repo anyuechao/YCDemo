@@ -15,6 +15,8 @@
 		2558B4C01E81155900BFE567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2558B4BE1E81155900BFE567 /* LaunchScreen.storyboard */; };
 		2558B4CB1E81155900BFE567 /* YCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4CA1E81155900BFE567 /* YCDemoTests.m */; };
 		2558B4D61E81155900BFE567 /* YCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4D51E81155900BFE567 /* YCDemoUITests.m */; };
+		25A0B18C1F15C12A0019AA0C /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A0B18B1F15C12A0019AA0C /* Text.m */; };
+		25A0B18E1F15C3B40019AA0C /* Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A0B18D1F15C3B40019AA0C /* Text.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2558B4D11E81155900BFE567 /* YCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2558B4D51E81155900BFE567 /* YCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCDemoUITests.m; sourceTree = "<group>"; };
 		2558B4D71E81155900BFE567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A0B18A1F15C12A0019AA0C /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		25A0B18B1F15C12A0019AA0C /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
+		25A0B18D1F15C3B40019AA0C /* Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Text.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				2558B4B41E81155800BFE567 /* AppDelegate.m */,
 				2558B4B61E81155800BFE567 /* ViewController.h */,
 				2558B4B71E81155800BFE567 /* ViewController.m */,
+				25A0B18D1F15C3B40019AA0C /* Text.cpp */,
+				25A0B18A1F15C12A0019AA0C /* Text.h */,
+				25A0B18B1F15C12A0019AA0C /* Text.m */,
 				2558B4B91E81155800BFE567 /* Main.storyboard */,
 				2558B4BC1E81155900BFE567 /* Assets.xcassets */,
 				2558B4BE1E81155900BFE567 /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					2558B4AC1E81155800BFE567 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D6NH4X2WX7;
 						ProvisioningStyle = Automatic;
 					};
 					2558B4C51E81155900BFE567 = {
@@ -275,7 +284,9 @@
 			files = (
 				2558B4B81E81155800BFE567 /* ViewController.m in Sources */,
 				2558B4B51E81155800BFE567 /* AppDelegate.m in Sources */,
+				25A0B18C1F15C12A0019AA0C /* Text.m in Sources */,
 				2558B4B21E81155800BFE567 /* main.m in Sources */,
+				25A0B18E1F15C3B40019AA0C /* Text.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D6NH4X2WX7;
 				INFOPLIST_FILE = YCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DJnet.YCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D6NH4X2WX7;
 				INFOPLIST_FILE = YCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DJnet.YCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +522,7 @@
 				2558B4DC1E81155900BFE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2558B4DD1E81155900BFE567 /* Build configuration list for PBXNativeTarget "YCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				2558B4DF1E81155900BFE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2558B4E01E81155900BFE567 /* Build configuration list for PBXNativeTarget "YCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				2558B4E21E81155900BFE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
