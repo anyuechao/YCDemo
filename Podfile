@@ -15,7 +15,7 @@ target ‘YCDemo’ do
     pod 'Masonry', '~> 1.0.1'
     pod 'SVProgressHUD', '2.1.2'
 #    pod 'WBNetwork', '~> 0.3.8'
-    pod 'YYModel', '~> 1.0.4'
+#    pod 'YYModel', '~> 1.0.4'
     pod 'HLNetworking','~> 2.0.2'
 
 end
