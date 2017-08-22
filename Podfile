@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target ‘ReactiveCocoaDemo’ do
+target ‘YCDemo’ do
     source 'https://git.coding.net/CoderAn/YCPodSpec.git'
     source 'https://github.com/CocoaPods/Specs.git'
 #    source 'ssh://gitstore:/opt/gitspace/wb-ios-basic/Specs.git'
