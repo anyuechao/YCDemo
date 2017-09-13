@@ -141,7 +141,7 @@
 		2558B4AF1E81155800BFE567 /* YCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				258256421F6930D0004B4FCB /* BusinessDiandu */,
+				258256421F6930D0004B4FCB /* BusinessDiandu111 */,
 				2558B4B31E81155800BFE567 /* AppDelegate.h */,
 				2558B4B41E81155800BFE567 /* AppDelegate.m */,
 				2558B4B61E81155800BFE567 /* ViewController.h */,
@@ -201,13 +201,13 @@
 			path = YCDemoUITests;
 			sourceTree = "<group>";
 		};
-		258256421F6930D0004B4FCB /* BusinessDiandu */ = {
+		258256421F6930D0004B4FCB /* BusinessDiandu111 */ = {
 			isa = PBXGroup;
 			children = (
 				258256431F6930E5004B4FCB /* TextView.h */,
 				258256441F6930E5004B4FCB /* TextView.m */,
 			);
-			name = BusinessDiandu;
+			name = BusinessDiandu111;
 			path = ../../../../../BusinessDiandu;
 			sourceTree = "<group>";
 		};
