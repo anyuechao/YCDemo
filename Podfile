@@ -17,5 +17,7 @@ target ‘YCDemo’ do
 #    pod 'WBNetwork', '~> 0.3.8'
 #    pod 'YYModel', '~> 1.0.4'
     pod 'HLNetworking','~> 2.0.2'
+#    pod 'YYKit'
 
+pod 'YYKit'
 end

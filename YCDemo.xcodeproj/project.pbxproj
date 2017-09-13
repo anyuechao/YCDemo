@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2528D4311F53C0B900C72E2B /* SyntheticalTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D4301F53C0B900C72E2B /* SyntheticalTitleBarView.m */; };
+		2528D4341F53C13E00C72E2B /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D4331F53C13E00C72E2B /* TitleBarView.m */; };
+		2528D4361F53C4DB00C72E2B /* subMenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2528D4351F53C4DB00C72E2B /* subMenuItems.plist */; };
+		2528D43C1F53C55D00C72E2B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D43B1F53C55D00C72E2B /* Utils.m */; };
+		2528D43F1F53C59D00C72E2B /* OSCMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D43E1F53C59D00C72E2B /* OSCMenuItem.m */; };
+		2528D4421F53C73F00C72E2B /* OSCModelHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D4411F53C73F00C72E2B /* OSCModelHandler.m */; };
+		2528D4451F53CAFF00C72E2B /* OSCPropertyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D4441F53CAFF00C72E2B /* OSCPropertyCollection.m */; };
+		2528D4481F53CB1000C72E2B /* OSCPropertyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528D4471F53CB1000C72E2B /* OSCPropertyCollectionCell.m */; };
 		2558B4B21E81155800BFE567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4B11E81155800BFE567 /* main.m */; };
 		2558B4B51E81155800BFE567 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4B41E81155800BFE567 /* AppDelegate.m */; };
 		2558B4B81E81155800BFE567 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4B71E81155800BFE567 /* ViewController.m */; };
@@ -15,7 +23,10 @@
 		2558B4C01E81155900BFE567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2558B4BE1E81155900BFE567 /* LaunchScreen.storyboard */; };
 		2558B4CB1E81155900BFE567 /* YCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4CA1E81155900BFE567 /* YCDemoTests.m */; };
 		2558B4D61E81155900BFE567 /* YCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2558B4D51E81155900BFE567 /* YCDemoUITests.m */; };
+		258256451F6930E5004B4FCB /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 258256441F6930E5004B4FCB /* TextView.m */; };
 		25A0B18C1F15C12A0019AA0C /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A0B18B1F15C12A0019AA0C /* Text.m */; };
+		25E7DFB41F551D2500A59556 /* DJInformationListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7DFB31F551D2500A59556 /* DJInformationListCollectionViewController.m */; };
+		5EB478EA55DAB187E5B941D6 /* libPods-YCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCE3024EE0CFEC8F18DAA95 /* libPods-YCDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2528D42F1F53C0B900C72E2B /* SyntheticalTitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntheticalTitleBarView.h; sourceTree = "<group>"; };
+		2528D4301F53C0B900C72E2B /* SyntheticalTitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntheticalTitleBarView.m; sourceTree = "<group>"; };
+		2528D4321F53C13E00C72E2B /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		2528D4331F53C13E00C72E2B /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
+		2528D4351F53C4DB00C72E2B /* subMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subMenuItems.plist; sourceTree = "<group>"; };
+		2528D43A1F53C55D00C72E2B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2528D43B1F53C55D00C72E2B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2528D43D1F53C59D00C72E2B /* OSCMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCMenuItem.h; sourceTree = "<group>"; };
+		2528D43E1F53C59D00C72E2B /* OSCMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCMenuItem.m; sourceTree = "<group>"; };
+		2528D4401F53C73F00C72E2B /* OSCModelHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCModelHandler.h; sourceTree = "<group>"; };
+		2528D4411F53C73F00C72E2B /* OSCModelHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCModelHandler.m; sourceTree = "<group>"; };
+		2528D4431F53CAFF00C72E2B /* OSCPropertyCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPropertyCollection.h; sourceTree = "<group>"; };
+		2528D4441F53CAFF00C72E2B /* OSCPropertyCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPropertyCollection.m; sourceTree = "<group>"; };
+		2528D4461F53CB1000C72E2B /* OSCPropertyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPropertyCollectionCell.h; sourceTree = "<group>"; };
+		2528D4471F53CB1000C72E2B /* OSCPropertyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPropertyCollectionCell.m; sourceTree = "<group>"; };
 		2558B4AD1E81155800BFE567 /* YCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2558B4B11E81155800BFE567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2558B4B31E81155800BFE567 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +78,16 @@
 		2558B4D11E81155900BFE567 /* YCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2558B4D51E81155900BFE567 /* YCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCDemoUITests.m; sourceTree = "<group>"; };
 		2558B4D71E81155900BFE567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258256431F6930E5004B4FCB /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		258256441F6930E5004B4FCB /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 		25A0B18A1F15C12A0019AA0C /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
 		25A0B18B1F15C12A0019AA0C /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
+		25D1BFC71F614C5F007FF81C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		25E7DFB21F551D2500A59556 /* DJInformationListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJInformationListCollectionViewController.h; sourceTree = "<group>"; };
+		25E7DFB31F551D2500A59556 /* DJInformationListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJInformationListCollectionViewController.m; sourceTree = "<group>"; };
+		45A5484FC021F5C4E8C94E2D /* Pods-YCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCDemo/Pods-YCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8FF6E56B5DE2FFD91B9677F /* Pods-YCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCDemo/Pods-YCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EDCE3024EE0CFEC8F18DAA95 /* libPods-YCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB478EA55DAB187E5B941D6 /* libPods-YCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +123,8 @@
 				2558B4C91E81155900BFE567 /* YCDemoTests */,
 				2558B4D41E81155900BFE567 /* YCDemoUITests */,
 				2558B4AE1E81155800BFE567 /* Products */,
+				A94399CB3BC10EC0E0BAA89A /* Pods */,
+				E2745EEA7181B504EF44A03E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +141,31 @@
 		2558B4AF1E81155800BFE567 /* YCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				258256421F6930D0004B4FCB /* BusinessDiandu */,
 				2558B4B31E81155800BFE567 /* AppDelegate.h */,
 				2558B4B41E81155800BFE567 /* AppDelegate.m */,
 				2558B4B61E81155800BFE567 /* ViewController.h */,
 				2558B4B71E81155800BFE567 /* ViewController.m */,
+				2528D4431F53CAFF00C72E2B /* OSCPropertyCollection.h */,
+				2528D4441F53CAFF00C72E2B /* OSCPropertyCollection.m */,
+				2528D4461F53CB1000C72E2B /* OSCPropertyCollectionCell.h */,
+				2528D4471F53CB1000C72E2B /* OSCPropertyCollectionCell.m */,
+				2528D42F1F53C0B900C72E2B /* SyntheticalTitleBarView.h */,
+				2528D4301F53C0B900C72E2B /* SyntheticalTitleBarView.m */,
+				2528D4321F53C13E00C72E2B /* TitleBarView.h */,
+				2528D4331F53C13E00C72E2B /* TitleBarView.m */,
+				2528D43D1F53C59D00C72E2B /* OSCMenuItem.h */,
+				2528D43E1F53C59D00C72E2B /* OSCMenuItem.m */,
+				2528D4401F53C73F00C72E2B /* OSCModelHandler.h */,
+				2528D4411F53C73F00C72E2B /* OSCModelHandler.m */,
+				2528D43A1F53C55D00C72E2B /* Utils.h */,
+				2528D43B1F53C55D00C72E2B /* Utils.m */,
+				25E7DFB21F551D2500A59556 /* DJInformationListCollectionViewController.h */,
+				25E7DFB31F551D2500A59556 /* DJInformationListCollectionViewController.m */,
+				2528D4351F53C4DB00C72E2B /* subMenuItems.plist */,
 				25A0B18A1F15C12A0019AA0C /* Text.h */,
 				25A0B18B1F15C12A0019AA0C /* Text.m */,
+				25D1BFC71F614C5F007FF81C /* Inceptionv3.mlmodel */,
 				2558B4B91E81155800BFE567 /* Main.storyboard */,
 				2558B4BC1E81155900BFE567 /* Assets.xcassets */,
 				2558B4BE1E81155900BFE567 /* LaunchScreen.storyboard */,
@@ -145,6 +201,33 @@
 			path = YCDemoUITests;
 			sourceTree = "<group>";
 		};
+		258256421F6930D0004B4FCB /* BusinessDiandu */ = {
+			isa = PBXGroup;
+			children = (
+				258256431F6930E5004B4FCB /* TextView.h */,
+				258256441F6930E5004B4FCB /* TextView.m */,
+			);
+			name = BusinessDiandu;
+			path = ../../../../../BusinessDiandu;
+			sourceTree = "<group>";
+		};
+		A94399CB3BC10EC0E0BAA89A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8FF6E56B5DE2FFD91B9677F /* Pods-YCDemo.debug.xcconfig */,
+				45A5484FC021F5C4E8C94E2D /* Pods-YCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2745EEA7181B504EF44A03E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE3024EE0CFEC8F18DAA95 /* libPods-YCDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2558B4DA1E81155900BFE567 /* Build configuration list for PBXNativeTarget "YCDemo" */;
 			buildPhases = (
+				B754D1E1AA04D5921F4B4B34 /* [CP] Check Pods Manifest.lock */,
 				2558B4A91E81155800BFE567 /* Sources */,
 				2558B4AA1E81155800BFE567 /* Frameworks */,
 				2558B4AB1E81155800BFE567 /* Resources */,
+				05D8CC675A2B67DA0EE2F87F /* [CP] Embed Pods Frameworks */,
+				B3C47B95D14EC0049D737AE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2558B4C01E81155900BFE567 /* LaunchScreen.storyboard in Resources */,
+				2528D4361F53C4DB00C72E2B /* subMenuItems.plist in Resources */,
 				2558B4BD1E81155900BFE567 /* Assets.xcassets in Resources */,
 				2558B4BB1E81155800BFE567 /* Main.storyboard in Resources */,
 			);
@@ -274,14 +361,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D8CC675A2B67DA0EE2F87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCDemo/Pods-YCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C47B95D14EC0049D737AE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCDemo/Pods-YCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B754D1E1AA04D5921F4B4B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2558B4A91E81155800BFE567 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2528D4481F53CB1000C72E2B /* OSCPropertyCollectionCell.m in Sources */,
+				25E7DFB41F551D2500A59556 /* DJInformationListCollectionViewController.m in Sources */,
+				2528D4421F53C73F00C72E2B /* OSCModelHandler.m in Sources */,
 				2558B4B81E81155800BFE567 /* ViewController.m in Sources */,
+				2528D43F1F53C59D00C72E2B /* OSCMenuItem.m in Sources */,
 				2558B4B51E81155800BFE567 /* AppDelegate.m in Sources */,
+				2528D4311F53C0B900C72E2B /* SyntheticalTitleBarView.m in Sources */,
+				2528D43C1F53C55D00C72E2B /* Utils.m in Sources */,
+				2528D4341F53C13E00C72E2B /* TitleBarView.m in Sources */,
+				258256451F6930E5004B4FCB /* TextView.m in Sources */,
 				25A0B18C1F15C12A0019AA0C /* Text.m in Sources */,
+				2528D4451F53CAFF00C72E2B /* OSCPropertyCollection.m in Sources */,
 				2558B4B21E81155800BFE567 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +573,7 @@
 		};
 		2558B4DB1E81155900BFE567 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FF6E56B5DE2FFD91B9677F /* Pods-YCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D6NH4X2WX7;
@@ -442,6 +587,7 @@
 		};
 		2558B4DC1E81155900BFE567 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A5484FC021F5C4E8C94E2D /* Pods-YCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D6NH4X2WX7;
